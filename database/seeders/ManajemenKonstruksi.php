@@ -20,8 +20,8 @@ class ManajemenKonstruksi extends Seeder
         DB::table('owner')->insert(array(
             ['nama_owner'=>'myra', 'budget'=>'1000000', 'shm'=>'ada', 'ijin_mendirikan'=>'ada', 'perusahaan_diminta'=>'PT fiksi']
         ));
-        // DB::table('bahan1')->insert(array(
-        //     ['']
-        // ));
+        DB::table('bahan1')->insert(array(
+            ['nama_bahan'=>'semen', 'harga'=>'10000000']
+        ));
     }
 }
